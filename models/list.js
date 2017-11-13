@@ -15,7 +15,8 @@ const ListSchema = new Schema({
     type: Array,
     default: [{
       type: Schema.Types.ObjectId,
-      ref: 'Note'
+      ref: 'Note',
+
     }]
   }
 });
